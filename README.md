@@ -373,9 +373,9 @@ function VoiceNavigation({ setView }) {
 
 export default VoiceNavigation;
 #App.js
-import EmotionDetection from './components/EmotionDetection';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import StudentDashboard from './components/StudentDashboard';
+import EmotionDetection from './components/EmotionDetection';
 import MentorMatch from './components/MentorMatch';
 // ... other imports
 
